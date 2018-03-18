@@ -1,0 +1,22 @@
+{
+  "name": "dph-dash",
+  "version": "1.0.0",
+  "description": "Dashoard Template from bootstrap for wasy metrics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damionpaulhart/dash.git"
+  },
+  "keywords": [
+    "dashboard"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/damionpaulhart/knewro/issues"
+  },
+  "homepage": "https://github.com/damionpaulhart/knewro#readme",
+}
