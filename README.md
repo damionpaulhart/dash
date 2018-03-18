@@ -1,11 +1,21 @@
 # dash
-Currently a test project starting with bootstrap dashboard example.
-Purpose is to create an easy 'go-to' for starting a dashboard interface on systems that do not have them
-[for instance if company is just keeping log files, but wants to 'see' the logs as charts/graphs]
+Currently a test project
+ 
+ starting with bootstrap dashboard example.
+ 
+Purpose is to create an easy template for starting a dashboard interface on
+ systems that do not have visualization.
+ 
+For instance if you have log files, but want to 'see' the logs as charts/graphs
 
-using:
-boostrap
-node
-webpack
-will add in other js libraries to test their functionality:
-for example: comparing Chart.js to Google.Charts.
+Will also allow export and useful sorting/filtering
+
+Using:
+
+* boostrap
+* node
+* webpack
+* Chart.js
+
+Will add in other js libraries to test their functionality:
+For example: comparing Chart.js to Google.Charts.
