@@ -4,7 +4,11 @@
   "description": "Dashoard Template from bootstrap for wasy metrics",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch --mode development ./src/js/app.js --output ./app/js/app-bundle.js",
+    "start": "webpack-dev-server --open --mode development ./src/js/app.js --output ./app/js/app-bundle.js",
+    "dev": "webpack --mode development ./src/js/app.js --output ./app/js/app-bundle.js",
+    "build": "webpack --mode production ./src/js/app.js --output ./app/js/app-bundle.js"
   },
   "repository": {
     "type": "git",
@@ -15,8 +19,16 @@
   ],
   "author": "",
   "license": "ISC",
+  "homepage": "https://github.com/damionpaulhart/dash#readme",
   "bugs": {
     "url": "https://github.com/damionpaulhart/knewro/issues"
   },
-  "homepage": "https://github.com/damionpaulhart/knewro#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12",
+    "webpack-dev-server": "^3.1.1"
+  }
 }
