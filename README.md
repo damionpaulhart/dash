@@ -1,5 +1,5 @@
 # dash
-Currently a test project
+Test project
  
  starting with bootstrap dashboard example.
  
